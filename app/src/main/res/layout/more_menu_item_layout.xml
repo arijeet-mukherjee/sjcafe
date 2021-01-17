@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/item_more_menu_imageview"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_beach_access_black_24dp"
+            android:tint="@color/colorMoreMenu"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/item_more_menu_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tune Image\nNew One"
+            android:maxLines="2"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorMoreMenu"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_more_menu_imageview"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

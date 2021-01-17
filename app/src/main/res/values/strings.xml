@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SJCafe\'</string>
+    <string name="your_website_url">https://sjcafe.net/</string>
+    <string name="error_text">Something went wrong or this\npage is not found. Please try again!</string>
+    <string name="publisherId">ca-app-pub-6536300647452618~6520964137</string>
+    <string name="interestitialAdId">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="email_subject">My regards conerned with</string>
+</resources>
